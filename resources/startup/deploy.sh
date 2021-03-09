@@ -6,10 +6,13 @@
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 
 echo "
-	      ╔╦╦╦══╦═╦═╦══╦══╗
-	      ║║║╠╗╔╣╬║║╠║║╩╗╗║
-	      ║║║╚╣║║╗╣║╠║║╦╩╝║
-	      ╚═╩═╩╝╚╩╩═╩══╩══╝
+	┈┈┈╱▔▔▔▔▔▔╲┈╭━━━╮┈┈
+        ┈┈▕┈╭━╮╭━╮┈▏┃BOO ┃┈┈
+        ┈┈▕┈┃╭╯╰╮┃┈▏╰┳━━╯┈┈
+        ┈┈▕┈╰╯╭╮╰╯┈▏┈┃┈┈┈┈┈
+        ┈┈▕┈┈┈┃┃┈┈┈▏━╯┈┈┈┈┈
+        ┈┈▕┈┈┈╰╯┈┈┈▏┈┈┈┈┈┈┈
+        ┈┈▕╱╲╱╲╱╲╱╲▏┈┈┈┈┈┈┈
 
 	    °•° Deployment Begins •°•
 "
@@ -69,7 +72,7 @@ echo '
         •• Cloning Repository
 '
 
-git clone https://github.com/Teamultroid/Ultroid.git /root/TeamUltroid/
+git clone https://github.com/theshashankk/NaruToUseRBoT.git /root/TeamUltroid/
 
 
 echo '
@@ -81,12 +84,13 @@ pip install -r /root/TeamUltroid/requirements.txt
 
 echo "
 
-			      ┏┳┓╋┏┓╋╋╋╋┏┓┏┓
-			      ┃┃┣┓┃┗┳┳┳━╋╋┛┃
-			      ┃┃┃┗┫┏┫┏┫╋┃┃╋┃
-			      ┗━┻━┻━┻┛┗━┻┻━┛
-
+			              ℕ
+				      𝔸
+			              ℝ
+			              𝕌
+			              𝕋    
+                                      𝕆
 			•°• Deployed Successfully °•°
 		   •• Wait till python images are pushed
-	   •• Give build logs in @UltroidSupport if build fails
+	   •• Give build logs in @narutosupport if build fails
 "
