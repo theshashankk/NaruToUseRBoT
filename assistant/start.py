@@ -32,8 +32,8 @@ async def assistant(event):
         if event.is_private and event.sender_id in sed:
             return
         await event.reply(
-            f"Hey there, this is Ultroid Assistant of {OWNER_NAME}!\n\n{ok}",
-            buttons=[Button.url("Know More", url="https://t.me/TeamUltroid")],
+            f"Hey there, this is Naruto Assistant of {OWNER_NAME}!\n\n{ok}",
+            buttons=[Button.url("Know More", url="https://t.me/NarutoSupport")],
         )
 
 
@@ -73,7 +73,7 @@ async def ultroid(event):
 @owner
 async def botstat(event):
     ok = len(get_all_users())
-    msg = """Ultroid Assistant - Stats
+    msg = """Naruto Assistant - Stats
 Total Users - {}""".format(
         ok
     )
