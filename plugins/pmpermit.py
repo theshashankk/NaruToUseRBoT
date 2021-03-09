@@ -35,7 +35,7 @@ LASTMSG = {}
 if Redis("PMPIC"):
     PMPIC = Redis("PMPIC")
 else:
-    PMPIC = "https://telegra.ph/file/56ed029e61912d277a2f1.jpg"
+    PMPIC = "https://telegra.ph/file/0c17482c4bfa0fda3d360.jpg"
 
 if not Redis("PM_TEXT"):
     UNAPPROVED_MSG = """
