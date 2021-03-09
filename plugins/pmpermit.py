@@ -35,13 +35,13 @@ LASTMSG = {}
 if Redis("PMPIC"):
     PMPIC = Redis("PMPIC")
 else:
-    PMPIC = "https://telegra.ph/file/94f6a4aeb21ce2d58dd41.jpg"
+    PMPIC = "https://telegra.ph/file/56ed029e61912d277a2f1.jpg"
 
 if not Redis("PM_TEXT"):
     UNAPPROVED_MSG = """
 **PMSecurity of {}!**
 
-Please wait for me to respnd or you will be blocked and reported as spam!!
+sᴜʀ ᴊɪɪ ʀᴜᴋᴏ ᴊᴀʀᴀʜ sᴀʙᴀʀ ᴋʀᴏ sʜᴀsʜᴀɴᴋ sᴜʀ sᴇ ᴅᴀʀᴏ ᴏʀ ᴀʙ ᴍsɢ ᴍᴛ ᴋʀɴᴀ ᴡʀɴᴀ ʀᴇᴘᴏʀᴛ+ʙʟᴏᴄᴋ!!
 
 You have {}/{} warnings!"""
 else:
@@ -55,8 +55,8 @@ Please wait for me to respnd or you will be blocked and reported as spam!!
 You have {}/{} warnings!"""
     )
 
-UND = "Please wait for me to respnd or you will be blocked and reported as spam!!"
-UNS = "You were spamming my Master's PM, which I didn't like."
+UND = "sᴜʀᴊɪɪ sᴍᴊʜ ɴʜɪɪ ᴀᴀᴛᴀ ᴋʏᴀ ᴇᴋ ʙᴀᴀʀ ᴍᴇ ᴄʜɪᴘ ᴄʜᴀᴀᴘ sᴇ ʙᴇᴛʜᴏ ᴡʀɴᴀ... ʙʜᴜᴛ ʙᴜʀᴀ ʜᴏɢᴀ!!"
+UNS = "ᴀʙᴇ ʟᴡᴅᴇ.... ᴛᴇᴋᴏ ᴍɴᴀ ᴋɪʏᴀ ɴᴀ ᴇᴋ ʙᴀᴀʀ sᴍᴊʜ ɴʜɪ ᴀᴀᴛᴀ ᴋʏᴀ ᴀʙ ᴛᴜᴜ ʙʟᴏᴄᴋ ʜᴏ ɢʏᴀ ʜᴀɪ ᴊɪᴛɴᴀ ʙʜᴏᴋɴᴀ ʜᴀɪ ʙʜᴏᴋᴏ"
 # 1
 
 WARNS = 3
