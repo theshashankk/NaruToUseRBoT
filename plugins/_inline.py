@@ -24,7 +24,7 @@ from . import *
 notmine = "This bot is for {}".format(OWNER_NAME)
 ULTROID_PIC = "https://telegra.ph/file/11245cacbffe92e5d5b14.jpg"
 helps = """
-[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)
+[ɴᴀʀᴜᴛᴏ sᴜᴘᴘᴏʀᴛ](t.me/NarutoSupport)
 
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.
 
