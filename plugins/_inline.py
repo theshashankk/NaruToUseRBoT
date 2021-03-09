@@ -22,7 +22,7 @@ from . import *
 
 # ================================================#
 notmine = "This bot is for {}".format(OWNER_NAME)
-ULTROID_PIC = "https://telegra.ph/file/11245cacbffe92e5d5b14.jpg"
+ULTROID_PIC = "https://telegra.ph/file/56ed029e61912d277a2f1.jpg"
 helps = """
 [ɴᴀʀᴜᴛᴏ sᴜᴘᴘᴏʀᴛ](t.me/NarutoSupport)
 
@@ -34,7 +34,7 @@ Pʟᴜɢɪɴs ~ {}**
 add_ons = udB.get("ADDONS")
 if add_ons:
     zhelps = """
-[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)
+[ɴᴀʀᴜᴛᴏ sᴜᴘᴘᴏʀᴛ](t.me/NarutoSupport)
 
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.
 
@@ -42,7 +42,7 @@ Aᴅᴅᴏɴs ~ {}**
 """
 else:
     zhelps = """
-[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ultroidsupport)
+[ɴᴀʀᴜᴛᴏ sᴜᴘᴘᴏʀᴛ](t.me/NarutoSupport)
 
 **Hᴇʟᴘ Mᴇɴᴜ Oғ {}.
 
@@ -60,13 +60,13 @@ async def e(o):
         b = o.builder
         uptime = grt((time.time() - start_time))
         ALIVEMSG = """
-**The Ultroid Userbot...**\n
-✵ **Owner** - `{}`
-✵ **Ultroid** - `{}`
-✵ **UpTime** - `{}`
-✵ **Python** - `{}`
-✵ **Telethon** - `{}`
-✵ **Branch** - `{}`
+**ᴛʜᴇ ɴᴀʀᴜᴛᴏ ᴜsᴇʀʙᴏᴛ...**\n
+✵ **ᴏᴡɴᴇʀ** - `{}`
+✵ **ɴᴀʀᴜᴛᴏ** - `{}`
+✵ **ᴜᴘᴛɪᴍᴇ** - `{}`
+✵ **ᴘʏᴛʜᴏɴ** - `{}`
+✵ **ᴛᴇʟᴇᴛʜᴏɴ** - `{}`
+✵ **ʙʀᴀɴᴄʜ** - `{}`
 """.format(
             OWNER_NAME,
             ultroid_version,
@@ -77,22 +77,22 @@ async def e(o):
         )
         res = [
             b.article(
-                title="Ultroid Userbot",
-                url="https://t.me/TeamUltroid",
-                description="Userbot | Telethon ",
+                title="ɴᴀʀᴜᴛᴏ ᴜsᴇʀʙᴏᴛ",
+                url="https://t.me/NarutoSupport",
+                description="ᴜsᴇʀʙᴏᴛ | ᴛᴇʟᴇᴛʜᴏɴ ",
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 buttons=[
-                    [Button.url(text="Support Group", url="t.me/UltroidSupport")],
+                    [Button.url(text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=".me/NarutoSupport")],
                     [
                         Button.url(
-                            text="Repo", url="https://github.com/Teamultroid/Ultroid"
+                            text="Repo", url="https://github.com/theshashankk/NaruToUseRBoT"
                         )
                     ],
                 ],
             )
         ]
-        await o.answer(res, switch_pm=f"👥 ULTROID PORTAL", switch_pm_param="start")
+        await o.answer(res, switch_pm=f"👥 ɴᴀʀᴜᴛᴏ ᴘᴏʀᴛᴀʟ", switch_pm_param="start")
 
 
 if Var.BOT_USERNAME is not None and asst is not None:
@@ -117,7 +117,7 @@ if Var.BOT_USERNAME is not None and asst is not None:
             result = builder.article(
                 title="Help Menu",
                 description="Help Menu - UserBot | Telethon ",
-                url="https://t.me/TheUltroid",
+                url="https://t.me/narutosupport",
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 text=f"** Bᴏᴛ Oғ {OWNER_NAME}\n\nMᴀɪɴ Mᴇɴᴜ\n\nPʟᴜɢɪɴs ~ {len(PLUGINS) - 4}\nAᴅᴅᴏɴs ~ {len(ADDONS)}\nTᴏᴛᴀʟ Cᴏᴍᴍᴀɴᴅs ~ {cmd}**",
                 buttons=[
@@ -394,7 +394,7 @@ if Var.BOT_USERNAME is not None and asst is not None:
             reply_pop_up_alert = "{} has no detailed help...".format(plugin_name)
         else:
             reply_pop_up_alert = help_string
-        reply_pop_up_alert += "\n© @TheUltroid"
+        reply_pop_up_alert += "\n© @narutosupport"
         try:
             if event.query.user_id in sed:
                 await event.edit(
@@ -445,7 +445,7 @@ if Var.BOT_USERNAME is not None and asst is not None:
             reply_pop_up_alert = "{} has no detailed help...".format(plugin_name)
         else:
             reply_pop_up_alert = help_string
-        reply_pop_up_alert += "\n© @TheUltroid"
+        reply_pop_up_alert += "\n© @narutosupport"
         try:
             if event.query.user_id in sed:
                 await event.edit(
