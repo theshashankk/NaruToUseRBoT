@@ -14,7 +14,7 @@ from . import *
 @owner
 async def otvaar(event):
     await event.edit(
-        "Other Variables to set for @TheUltroid:",
+        "Other Variables to set for @NarutoSupport:",
         buttons=[
             [Button.inline("Tᴀɢ Lᴏɢɢᴇʀ", data="taglog")],
             [Button.inline("SᴜᴘᴇʀFʙᴀɴ", data="sfban")],
@@ -40,7 +40,7 @@ async def pluginch(event):
     name = "Plugin Channel"
     async with event.client.conversation(pru) as conv:
         await conv.send_message(
-            "Send id or username of a channel from where u want to install all plugins\n\nOur Channel~ @ultroidplugins\n\nUse /cancel to cancel."
+            "Send id or username of a channel from where u want to install all plugins\n\nOur Channel~ @NarutoSupport\n\nUse /cancel to cancel."
         )
         response = conv.wait_event(events.NewMessage(chats=pru))
         response = await response
@@ -186,7 +186,7 @@ async def sfgrp(event):
     pru = event.sender_id
     async with asst.conversation(pru) as conv:
         await conv.send_message(
-            f"Make a group, add @MissRose_Bot, send `{hndlr}id`, copy that and send it here.\nUse /cancel to go back."
+            f"Make a group, add @whitedevilrobot, send `{hndlr}id`, copy that and send it here.\nUse /cancel to go back."
         )
         response = conv.wait_event(events.NewMessage(chats=pru))
         response = await response
